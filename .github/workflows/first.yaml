@@ -22,6 +22,10 @@ jobs:
             - name: Terraform validate
               run: terraform validate
             - name: Terraform plan
-              run: terraform plan
+              run: terraform 
+            - name: Terraform apply
+              run: terraform apply
+            - name: Terraform destroy
+              run: terraform destroy
          
             
